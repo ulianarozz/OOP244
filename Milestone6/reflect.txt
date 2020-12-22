@@ -1,0 +1,13 @@
+Uliana Rozzhyvaikina
+132294190
+
+The last final milestone wasn't easy for me. I had the difficulty to understand instructions clearly.
+The hardest part was loadData() and saveData() functions. They took me 50% of time I spent on the milestone 6.
+Also the part where we asked to create new instance of Car or Motorcycle wasnt clear from the first sight that
+I need to create Vehicle and then Car or Moto.
+All other parts of the mislestone were pretty simple after I got the idea about new Car and new Motorcycle objects.
+I think in this milestone I caught up with all things I needed, especialy loading from file.
+Another problem I faced doing this milestone was wrong calling of the write/ read functions.
+I forgot to pass the object in read(object) when I called the function and it gave me wrong 
+output in the saved file and was pretty hard to find.
+Thank you for great half semester!
