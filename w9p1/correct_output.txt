@@ -1,0 +1,25 @@
+Script started on Thu 16 Jul 2020 12:53:48 PM EDT
+==70495== Memcheck, a memory error detector
+==70495== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==70495== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==70495== Command: ws
+==70495== 
+These students have invalid student ids:
+2345 Lisa Simpson
+4567 Ralph Wiggum
+All employee have valid employee ids
+These integer values are invalid: 
+2
+These character values are invalid: 
+A
+==70495== 
+==70495== HEAP SUMMARY:
+==70495==     in use at exit: 0 bytes in 0 blocks
+==70495==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==70495== 
+==70495== All heap blocks were freed -- no leaks are possible
+==70495== 
+==70495== For lists of detected and suppressed errors, rerun with: -s
+==70495== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 16 Jul 2020 12:53:48 PM EDT
