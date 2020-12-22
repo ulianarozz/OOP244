@@ -1,0 +1,61 @@
+Script started on Mon 01 Jun 2020 02:30:35 PM EDT
+==80009== Memcheck, a memory error detector
+==80009== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==80009== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==80009== Command: ws
+==80009== 
+----------------------------------------
+|> T1: Testing Constants
+----------------------------------------
+TYPE_MAX_SIZE: 30
+MIN_STD_POWER: 90.111
+MAX_STD_POWER: 99.999
+
+----------------------------------------
+|> T2: Testing Default Constructor
+----------------------------------------
+No available data
+The object is not valid! Engine cannot be added!
+
+----------------------------------------
+|> T3: Testing Custom Constructor
+----------------------------------------
+cruiser - 128.50
+4.40 liters - V8
+5.00 liters - V8
+4.10 liters - Inline
+7.00 liters - D3
+2.00 liters - D0
+3.20 liters - D1
+
+----------------------------------------
+|> T4: Testing Conversion to Bool Operator
+----------------------------------------
+1. Test succeeded!
+2. Test succeeded!
+
+----------------------------------------
+|> T5: Testing += and < Operators
+----------------------------------------
+Ship not up to standard. Required power: 90.111
+Ship not up to standard. Required power: 90.111
+Ship not up to standard. Required power: 90.111
+liner -  99.00
+4.40 liters - V8
+5.00 liters - V8
+4.10 liters - Inline
+2.10 liters - D1
+2.10 liters - D2
+2.10 liters - D3
+Ship doesn't exceed power regulation of: 99.999
+==80009== 
+==80009== HEAP SUMMARY:
+==80009==     in use at exit: 0 bytes in 0 blocks
+==80009==   total heap usage: 10 allocs, 10 frees, 73,724 bytes allocated
+==80009== 
+==80009== All heap blocks were freed -- no leaks are possible
+==80009== 
+==80009== For lists of detected and suppressed errors, rerun with: -s
+==80009== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 01 Jun 2020 02:30:36 PM EDT

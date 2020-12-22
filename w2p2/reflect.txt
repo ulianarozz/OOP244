@@ -1,0 +1,8 @@
+I learned some really interesting concepts in this workshop.
+ First and foremost, the concept of allocation of dynamic memory for an array as well as a single variable was taken into practical use in this workshop, 
+making us familiar with the concept. With allocation, I also learned deallocation of the dynamic memory of array,
+ which is very crucial for avoiding a run time error.In this part I had most of my errors which I needed to solve. Allocation of dynamic memory along with user input was also learned in this workshop
+. Overloading of a function, was also taught through this workshop.
+ Passing variable by reference as a well readable alternative to passing value by address was also made familiar by this workshop. 
+ Function with bool data type was also mentioned in the workshop, by which we understood that a value that is either true or false can be returned by it. 
+Finally, we learned about memory issues like , memory leaks and insufficient memory.

@@ -1,0 +1,11 @@
+Uliana Rozzhyvaikia urozzhyvaikina@mysemeca.ca
+132294190
+
+In this workshop I learnt how to use constructors and deconstructors and learnt how to manage them.
+I also learnt how to overload the constructor several time for different needs. 
+The hardest part for me in this workshop was "fight()" function that I needed to change from the part 1 to part 2 :
+ to add more if conditions and powerup() function. 
+It took me many hours to understand how to manage it. 
+Also in the fight function we needed to remove const because the powerup of saiyans is permament now.
+Another problem I faced this workshop was memory leak in the set function: the values should be null before we will call set function.
+

@@ -1,0 +1,10 @@
+In this workshop I learnt how to use overloaded operators in c++ , the syntax that needs to be used ( operator symbols follows the keyword) 
+and how to use them in our program to reduce typing. 
+The hardest part for me was the second part where I needed to change the dynamic memory allocation in overloaded operator.
+Only after my professor guided me where to study for it I was be able to fix it.
+Also we learnt about declaring the constructor explicit to avoid  possibility of ambiguities in the conversion from one type to another cause by 
+several sindle argument constructors.
+
+
+
+

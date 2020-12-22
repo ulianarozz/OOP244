@@ -1,0 +1,8 @@
+Uliana Rozzhyvaikina 132294190
+This workshop was a brand new challenge for me and seemed very different from the other workshops we did so far, 
+at first I took a look at the main function to understand how the code works and only then did I start writing my code, 
+I can never write my code without understanding the main function, after many mistakes of trial and error I finally managed to get the code running. 
+In this workshop I learned how to manage and created classes and to get the access to private members through the public functions.
+The main difficulty for me was to manage right the functions Get and Set, where I needed to change it from part1.
+The other thing that I struggled a lot it was precision output (2) in one place without touching it in other parts on Display function.
+I feel like my progress greatly increased since the start of the semester despite all the challenges of online school I seem to be pulling through very well in my opinion and I feel my progress happening on a weekly basis with every workshop I have to do research and find new perspectives for things we previously learned.

@@ -1,0 +1,103 @@
+Script started on Mon 01 Jun 2020 02:19:58 PM EDT
+==78370== Memcheck, a memory error detector
+==78370== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==78370== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==78370== Command: ws
+==78370== 
+----------------------------------------
+|> T1: Checking default constructor
+----------------------------------------
+Invalid Saiyan!
+
+----------------------------------------
+|> T2: Checking custom constructor
+----------------------------------------
+Only #2 should be valid:
+  Sayan #0: invalid
+  Sayan #1: invalid
+  Sayan #2: valid
+  Sayan #3: invalid
+  Sayan #4: invalid
+Invalid Saiyan!
+Invalid Saiyan!
+Goku
+     DOB: 1990
+   Power: 200
+   Super: no
+Invalid Saiyan!
+Invalid Saiyan!
+
+----------------------------------------
+|> T3: Checking the fight
+----------------------------------------
+Goku
+     DOB: 1990
+   Power: 2000
+   Super: no
+Vegeta
+     DOB: 1989
+   Power: 2200
+   Super: no
+S1 attacking S2, Battle Lost
+S2 attacking S1, Battle Won
+
+----------------------------------------
+|> T4: Checking powerup
+----------------------------------------
+Round #1
+Goku
+     DOB: 1990
+   Power: 2090
+   Super: yes
+   Level: 1
+Vegeta
+     DOB: 1989
+   Power: 2200
+   Super: no
+Round #2
+Goku
+     DOB: 1990
+   Power: 2299
+   Super: yes
+   Level: 1
+Vegeta
+     DOB: 1989
+   Power: 2200
+   Super: no
+Bonus round. Is s2 winning? no
+Goku
+     DOB: 1990
+   Power: 2528
+   Super: yes
+   Level: 1
+Vegeta
+     DOB: 1989
+   Power: 2200
+   Super: no
+
+----------------------------------------
+|> T5: Upgrading s2
+----------------------------------------
+Super Battle. Is s2 winning? yes
+Goku
+     DOB: 1990
+   Power: 2780
+   Super: yes
+   Level: 1
+Vegeta
+     DOB: 1990
+   Power: 2860
+   Super: yes
+   Level: 3
+
+==78370== 
+==78370== HEAP SUMMARY:
+==78370==     in use at exit: 0 bytes in 0 blocks
+==78370==   total heap usage: 6 allocs, 6 frees, 72,733 bytes allocated
+==78370== 
+==78370== All heap blocks were freed -- no leaks are possible
+==78370== 
+==78370== For lists of detected and suppressed errors, rerun with: -s
+==78370== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 01 Jun 2020 02:19:58 PM EDT

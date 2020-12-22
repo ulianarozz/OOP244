@@ -1,0 +1,70 @@
+Script started on Tue 26 May 2020 11:56:42 AM EDT
+==60423== Memcheck, a memory error detector
+==60423== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==60423== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==60423== Command: a.out
+==60423== 
+Enter number of Gifts to allocate: 4
+Gift #1: 
+Enter gift description: Roses
+Enter gift price: 5.99
+Enter gift units: 5
+
+Gift #2: 
+Enter gift description: Gift-card
+Enter gift price: -99.99
+Gift price must be between 0 and 999.999
+Enter gift price: 1000
+Gift price must be between 0 and 999.999
+Enter gift price: 50
+Enter gift units: 1
+
+Gift #3: 
+Enter gift description: Hugs
+Enter gift price: 0
+Enter gift units: -5
+Gift units must be at least 1
+Enter gift units: 0
+Gift units must be at least 1
+Enter gift units: 25
+
+Gift #4: 
+Enter gift description: card-card-card-card
+Enter gift price: 2
+Enter gift units: 3
+
+Gift #1: 
+Gift Details:
+ Description: Roses
+       Price: 5.99
+       Units: 5
+
+Gift #2: 
+Gift Details:
+ Description: Gift-card
+       Price: 50
+       Units: 1
+
+Gift #3: 
+Gift Details:
+ Description: Hugs
+       Price: 0
+       Units: 25
+
+Gift #4: 
+Gift Details:
+ Description: card-card-card-
+       Price: 2
+       Units: 3
+
+==60423== 
+==60423== HEAP SUMMARY:
+==60423==     in use at exit: 0 bytes in 0 blocks
+==60423==   total heap usage: 8 allocs, 8 frees, 73,174 bytes allocated
+==60423== 
+==60423== All heap blocks were freed -- no leaks are possible
+==60423== 
+==60423== For lists of detected and suppressed errors, rerun with: -s
+==60423== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Tue 26 May 2020 11:57:59 AM EDT
